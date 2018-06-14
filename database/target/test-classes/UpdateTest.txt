@@ -1,0 +1,15 @@
+SELECT FirstName FROM YCStudent WHERE GPA=3.44;
+UPDATE YCStudent SET GPA=3.44;
+SELECT FirstName FROM YCStudent WHERE GPA=3.44;
+SELECT FirstName FROM YCStudent WHERE BannerID=95385168;
+UPDATE YCStudent SET BannerID=95385168;
+SELECT FirstName FROM YCStudent BannerID=95385168;
+SELECT GPA FROM YCStudent WHERE CurrentStudent=true AND GPA=3.44;
+UPDATE YCStudent SET GPA=3.44 WHERE CurrentStudent=true;
+SELECT GPA FROM YCStudent WHERE CurrentStudent=true AND GPA=3.44;
+SELECT SSnum FROM YCStudent WHERE SSnum=52673202;
+UPDATE YCStudent SET SSnum=52673202 WHERE CurrentStudent=true;
+SELECT SSnum FROM YCStudent WHERE SSnum=52673202;
+SELECT GPA, CurrentStudent FROM YCStudent WHERE GPA=3.44;
+UPDATE YCStudent SET CurrentStudent=true, GPA=3.44
+SELECT GPA, CurrentStudent FROM YCStudent WHERE GPA=3.44;

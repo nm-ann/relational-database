@@ -1,0 +1,47 @@
+SELECT FirstName FROM YCStudent;
+SELECT FirstName, LastName FROM YCStudent;
+SELECT FirstName, LastName, GPA FROM YCStudent;
+SELECT NotAColumn FROM YCStudent;
+SELECT * FROM YCStudent;
+SELECT FirstName FROM YCStudent WHERE CurrentStudent=true;
+SELECT FirstName FROM YCStudent WHERE LastName='Cannings';
+SELECT FirstName FROM YCStudent WHERE GPA=1.45;
+SELECT FirstName FROM YCStudent WHERE CurrentStudent<>true;
+SELECT FirstName FROM YCStudent WHERE LastName<>'Cannings';
+SELECT FirstName FROM YCStudent WHERE GPA<>1.27;
+SELECT FirstName FROM YCStudent WHERE CurrentStudent>false;
+SELECT FirstName FROM YCStudent WHERE LastName>'Cannings';
+SELECT FirstName FROM YCStudent WHERE GPA>1.27;
+SELECT FirstName FROM YCStudent WHERE CurrentStudent>=true;
+SELECT FirstName FROM YCStudent WHERE LastName>='Cannings';
+SELECT FirstName FROM YCStudent WHERE GPA>=1.27;
+SELECT FirstName FROM YCStudent WHERE CurrentStudent<true;
+SELECT FirstName FROM YCStudent WHERE LastName<'Cannings';
+SELECT FirstName FROM YCStudent WHERE GPA<1.27;
+SELECT FirstName FROM YCStudent WHERE CurrentStudent<=true;
+SELECT FirstName FROM YCStudent WHERE LastName<='Cannings';
+SELECT FirstName FROM YCStudent WHERE GPA<=1.27;
+SELECT FirstName, LastName From YCStudent WHERE CurrentStudent=true AND GPA<0.50;
+SELECT FirstName, LastName From YCStudent WHERE GPA<0.50 OR GPA>2.50;
+SELECT FirstName, LastName From YCStudent WHERE CurrentStudent=true AND (GPA<0.50 OR GPA > 2.50);
+SELECT FirstName FROM YCStudent WHERE NotAColumn<=1.45;
+SELECT AVG(GPA) FROM YCStudent;
+SELECT SUM(GPA) FROM YCStudent;
+SELECT MAX(FirstName) FROM YCStudent;
+SELECT MAX(BannerID) FROM YCStudent;
+SELECT MAX(GPA) FROM YCStudent;
+SELECT MIN(FirstName) FROM YCStudent;
+SELECT MIN(BannerID) FROM YCStudent;
+SELECT MIN(GPA) FROM YCStudent;
+SELECT COUNT(CurrentStudent) FROM YCStudent;
+SELECT FirstName, LastName, MAX(GPA) FROM YCStudent;
+SELECT FirstName, MAX(GPA), LastName FROM YCStudent;
+SELECT COUNT(GPA) FROM YCStudent WHERE CurrentStudent=true;
+SELECT DISTINCT GPA FROM YCStudent
+SELECT FirstName, COUNT(DISTINCT CurrentStudent) FROM YCStudent
+SELECT DISTINCT GPA, CurrentStudent FROM YCStudent
+SELECT DISTINCT CurrentStudent, MAX(GPA) FROM YCStudent
+SELECT FirstName, GPA FROM YCStudent ORDER BY GPA ASC
+SELECT FirstName, GPA FROM YCStudent ORDER BY GPA DESC
+SELECT FirstName, GPA, CurrentStudent FROM YCStudent ORDER BY GPA ASC, CurrentStudent ASC, FirstName ASC
+SELECT FirstName, GPA, CurrentStudent FROM YCStudent ORDER BY GPA DESC, CurrentStudent DESC, FirstName DESC

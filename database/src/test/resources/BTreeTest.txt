@@ -1,0 +1,9 @@
+SELECT BannerID FROM YCStudent WHERE BannerID = 2112207
+SELECT BannerID FROM YCStudent WHERE BannerID <> 2112207
+SELECT BannerID FROM YCStudent WHERE BannerID > 9517151
+SELECT BannerID FROM YCStudent WHERE BannerID >= 9517151
+SELECT BannerID FROM YCStudent WHERE BannerID < 9517151
+SELECT BannerID FROM YCStudent WHERE BannerID <= 9517151
+CREATE INDEX FirstName_Index on YCStudent (FirstName)
+SELECT FirstName FROM YCStudent WHERE FirstName = 'Yoko'
+CREATE INDEX NotAColumn_Index on YCStudent (NotAColumn)

@@ -1,0 +1,9 @@
+INSERT INTO YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) VALUES (88059444, 1221212, 'Noam', 'Annenberg', 4.0, true);
+InSert inTo YCStudent(BannerID, SSnum, FirstName, GPA, CurrentStudent) VALUES (80032131, 123454321,'Joe', 3.6,false);
+INSERT INTO YCStudent(BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) VALUES (80022321, 1221212,'Jane', 'Smith', 2.8,false);
+INSERT INTO YCStudent(BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) VALUES (88059444, 563451321, John, Doe, 3.8,true);
+INSERT INTO YCStudent(SSnum, FirstName, LastName, GPA, CurrentStudent) VALUES (3293392, 'Bob', 'Rogers', 3.3, false);
+INSERT INTO YCStudent(BannerID, SSnum, NickName, LastName, GPA, CurrentStudent) VALUES (87654321, 3293392, 'Bob', 'Rogers', 3.3, false);
+INSERT INTO YCStudent(BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) VALUES (8978675, 3293392,'Bob', 'Rogers', true, false);
+INSERT INTO YCStudent(BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) VALUES (true, 3293392, 'Bob', 'Rogers', true, false);
+INSERT INTO NOTATABLE(BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) VALUES (true, 3293392, 'Bob', 'Rogers', true, false);

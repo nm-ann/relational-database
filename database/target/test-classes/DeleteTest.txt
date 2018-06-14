@@ -1,0 +1,6 @@
+SELECT FirstName FROM YCStudent WHERE CurrentStudent=false;
+DELETE FROM YCStudent WHERE CurrentStudent=false;
+SELECT FirstName FROM YCStudent WHERE CurrentStudent=false;
+SELECT FirstName FROM YCStudent;
+DELETE * FROM YCStudent;
+SELECT FirstName FROM YCStudent;

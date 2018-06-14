@@ -1,0 +1,8 @@
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (948813634, 52673202, 'Aleen', 'Swiffen', 3.44, true);
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (95385168, 180079, 'Fredi', 'Joicey', 2.13, false);
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (4075683, 6226976, 'Yoko', 'de-Quincey', 4.0, true);
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (9517151, 46974, 'Jeralee', 'Fruish', 1.27, true);
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (7087341, 9691, 'Nerty', 'Cannings', 0.97, false);
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (9166207, 808942, 'Allin', 'Teodoro', 4.0, false);
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (91612207, 908942, 'John', 'Smith', 4.0, true);
+insert into YCStudent (BannerID, SSnum, FirstName, LastName, GPA, CurrentStudent) values (2112207, 893211, 'Alice', 'Berg', 4.0, true);

@@ -1,0 +1,3 @@
+CREATE TABLE YCStudent(BannerID int, SSnum int UNIQUE, FirstName varchar(255), LastName varchar(255) NOT NULL, GPA decimal(1,2) Default 0.00, CurrentStudent boolean DEFAULT true,  PRIMARY KEY (BannerID));
+CREATE TABLE YCStudent(BannerID int DEFAULT 0, SSnum int UNIQUE, FirstName varchar(255), LastName varchar(255) NOT NULL, GPA decimal(1,2) Default 0.00, CurrentStudent boolean DEFAULT true,  PRIMARY KEY (BannerID));
+CREATE TABLE YCStudent(BannerID int, SSnum int UNIQUE, FirstName varchar(255), LastName varchar(255) NOT NULL, GPA decimal(1,2) DEFAULT true, CurrentStudent boolean DEFAULT true,  PRIMARY KEY (BannerID));
